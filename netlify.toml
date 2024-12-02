@@ -1,6 +1,6 @@
 # example netlify.toml
 [build]
-  command = "npm run build"
+  command = "npm run build && cp _headers .next/_headers"
   functions = "netlify/functions"
   publish = ".next"
 
